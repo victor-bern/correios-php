@@ -1,0 +1,38 @@
+.rwd-table {
+  margin: 1em 0;
+  width: 500px;
+
+  tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+.dados {
+  float: left;
+  margin-left: 15px;
+
+}
